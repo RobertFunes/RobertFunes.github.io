@@ -1,0 +1,161 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/footer/footer.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer_style__Q1874 {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(100, 206, 100);
+    color: white;
+}
+
+.footer_footer_style__Q1874 p{
+    margin: 0;
+}
+
+
+.footer_logo__z5B3Q{
+    height: -webkit-fill-available;
+    /* width: 100px; */
+    width: 25%;
+    position: relative;
+}
+
+.footer_footer_top__02_PT{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.footer_footer_botoom__OkBJW{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.footer_esfera__TO2Gu {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.footer_esfera__TO2Gu svg{
+    height: 800px !important;
+    filter: invert(66%) sepia(48%) saturate(466%) hue-rotate(71deg) brightness(97%) contrast(94%);
+}
+
+
+.footer_enlace__2duYT {
+    color: white;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/header/header.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.header_cabecera__me7W9 {
+    height: 10vh;
+    background-color: rgb(100, 206, 100);
+}
+
+.header_cabecera__me7W9 nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.header_logo__zlk1H{
+    height: -webkit-fill-available;
+    /* width: 100px; */
+    width: 25%;
+    position: relative;
+}
+
+.header_drop__YhVzs{
+    margin-left: 10px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.header_selectMenu__xFzxs {
+    width: 90px;
+}
+
+.header_selectBtn__JyTo7{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55px;
+    background: rgb(96, 184, 96);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding: 0 10px;
+}
+
+.header_selectBtn__JyTo7:hover{
+    background: rgb(132, 221, 132);
+}
+
+.header_options__eoW_p{
+    width: 90px;
+    margin: 0;
+    background: #fff;
+    padding: 0;
+    border: solid gray 1px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 10px;
+    /* display: none; */
+}
+
+.header_options__eoW_p .header_option__RG5Jp:first-child{
+    border-radius: 10px 10px 0 0;
+}
+
+.header_options__eoW_p .header_option__RG5Jp:last-child{
+    border-radius: 0 0 10px 10px;
+}
+
+.header_option__RG5Jp {
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.header_flag__lrAsB {
+    width: 30px;
+    margin-right: 2px;
+}
+
+.header_option__RG5Jp:hover{
+    background-color: #f2f2f2;
+}
+
+@media screen and (min-width: 1000px) {
+    .header_selectMenu__xFzxs {
+        width: 100px;
+    }
+
+    .header_options__eoW_p{
+        width: 100px;
+    }
+
+    .header_logo__zlk1H{
+        width: 10%;
+    }
+}
